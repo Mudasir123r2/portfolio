@@ -1,21 +1,69 @@
-<<<<<<< HEAD
-# React + Vite
+# Mudasir Mujtaba - Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly polished, and responsive personal portfolio showcasing my education, skills, projects, certifications, and experience. Built with a premium aesthetic featuring glassmorphism effects, a sleek dark theme with blue accents, and smooth animations.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+**[Insert Vercel Live Link Here]**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
+- **Modern UI/UX**: Premium dark theme (`#0f172a`), sleek glassmorphism cards, and fluid layouts.
+- **Smooth Animations**: Powered by `framer-motion` for staggered scroll-reveal effects, hovers, and dynamic component rendering.
+- **Dynamic Projects Showcase**: Grid layout featuring 7 major projects (Lexibot, Vision LLM, etc.) with custom hover effects and direct GitHub repository links.
+- **Certifications Gallery**: Dedicated section highlighting credentials from LinkedIn Learning, Coursera, DataCamp, and MongoDB.
+- **Fully Functional Contact Form**: Integrated with **EmailJS** for secure, serverless email delivery straight from the browser with built-in loading and animated feedback states.
+- **Responsive Design**: Built mobile-first utilizing CSS Grid and Flexbox via Tailwind CSS.
 
-## React Compiler
+## 🛠️ Technology Stack
+- **Frontend Framework**: React 19 (using Vite for lightning-fast build tooling)
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion & React Scroll
+- **Icons**: React Icons (`fa` & `si` libraries)
+- **Email Service**: EmailJS (`@emailjs/browser`)
+- **Deployment**: Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
+```text
+├── src/
+│   ├── assets/           # Project images, icons, and profile photos
+│   ├── components/       # Reusable React UI components (Hero, Skills, Projects, etc.)
+│   ├── data/             # Centralized portfolioData.js (All content lives here!)
+│   ├── App.jsx           # Main application routing and section assembly
+│   ├── index.css         # Global styles, Tailwind directives, and custom CSS
+│   └── main.jsx          # React DOM entry point
+├── .env                  # Environment variables (EmailJS keys)
+└── tailwind.config.js    # Tailwind configuration
+```
 
-## Expanding the ESLint configuration
+## ⚙️ Local Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# portfolio
-A personal portfolio showcasing my education, skills, projects, certifications, and experience, built with modern web technologies
->>>>>>> 00f853b3c247eca12a167cca43cfb4dc429ec441
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Mudasir123r2/portfolio.git
+   cd portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure Environment Variables (for Contact Form):**
+   Create a `.env` file in the root directory and add your EmailJS credentials:
+   ```env
+   VITE_SERVICE_ID=your_service_id
+   VITE_TEMPLATE_ID=your_template_id
+   VITE_PUBLIC_KEY=your_public_key
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📝 Customizing Content
+The entire portfolio is designed to be easily configurable. To update your bio, add new projects, or change your skills, simply edit the `src/data/portfolioData.js` file. The UI will automatically populate with the new data.
+
+## 👨‍💻 Author
+**Mudasir Mujtaba**
+- [LinkedIn](https://www.linkedin.com/in/mudasir-mujtaba-660a88360/)
+- [GitHub](https://github.com/Mudasir123r2)
